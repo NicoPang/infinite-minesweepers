@@ -26,3 +26,20 @@ html, body {
     height: 100%;
     box-sizing: border-box;
 }
+
+#crosshair {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#origin {
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    width: 10px;
+    height: 10px;
+    background-color: black;
+}
